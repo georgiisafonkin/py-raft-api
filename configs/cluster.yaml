@@ -1,0 +1,12 @@
+nodes:
+  n1:
+    url: http://127.0.0.1:8001
+  n2:
+    url: http://127.0.0.1:8002
+  n3:
+    url: http://127.0.0.1:8003
+timeouts:
+  heartbeat_seconds: 0.05
+  election_timeout_min_seconds: 0.3
+  election_timeout_max_seconds: 0.5
+  rpc_timeout_seconds: 0.2
